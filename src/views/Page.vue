@@ -14,7 +14,7 @@
 <script>
     export default {
         computed: {
-            email() {
+            profile() {
                 return this.$store.getters.profile
             }
         }
