@@ -22,7 +22,7 @@
             onSignInSuccess(googleUser) {
                 try {
                     const email = googleUser.getBasicProfile()["yu"];
-                    this.$store.setEmail(email);
+                    this.$store.commit("setEmail", email);
                     this.$router.replace("page");
                 } catch (err) {
                     console.log(err);
