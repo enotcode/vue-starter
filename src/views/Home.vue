@@ -21,7 +21,7 @@
         methods: {
             onSignInSuccess(googleUser) {
                 try {
-                    const profile = googleUser.getBasicProfile();
+                    const profile = googleUser.getBasicProfile().getName();
                     this.$store.commit("setProfile", profile);
                     this.$store.commit("setIsAuth", true);
                     this.$router.replace("page");
