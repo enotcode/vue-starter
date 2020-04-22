@@ -3,14 +3,14 @@
         <v-layout class="text-xs-center" column="column" justify-center="justify-center" align-center="align-center">
             <v-flex xs12="xs12" md10="md10">
                 <div class="headline pb-4">
-                    <h1>Home</h1>
+                    <h1>{{ $t("home") }}</h1>
                 </div>
-                <p>This is a starter template for developing applications on Vue.js.</p>
+                <p>{{ $t("description") }}</p>
                 <g-signin-button
                         :params="googleSignInParams"
                         @success="onSignInSuccess"
                         @error="onSignInError">
-                    Sign in with Google
+                    {{ $t("googleBtn") }}
                 </g-signin-button>
             </v-flex>
         </v-layout>
