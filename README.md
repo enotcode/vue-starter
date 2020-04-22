@@ -1,5 +1,20 @@
 # Vue Starter Template
 
+This is a starter template for developing applications on Vue.js
+
+Try this [https://vuestarter.now.sh/](https://vuestarter.now.sh/)
+
+## Used
+
++ [Vue.js](https://github.com/vuejs/vue)
++ [Vuex](https://github.com/vuejs/vuex)
++ [Vuetify](https://github.com/vuetifyjs/vuetify)
++ [Google sign-in button](https://github.com/phanan/vue-google-signin-button)
+
+## Get started
+
+Clone repo: `https://github.com/enotcode/vue-starter.git`
+
 ## Project setup
 ```
 yarn install
