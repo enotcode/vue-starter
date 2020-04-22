@@ -10,6 +10,7 @@ Try this [https://vuestarter.now.sh/](https://vuestarter.now.sh/)
 + [Vuex](https://github.com/vuejs/vuex)
 + [Vuetify](https://github.com/vuetifyjs/vuetify)
 + [Google sign-in button](https://github.com/phanan/vue-google-signin-button)
++ [i18n](https://github.com/kazupon/vue-i18n)
 
 ## Get started
 
