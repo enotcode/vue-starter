@@ -5,8 +5,9 @@
                 <div class="headline pb-4">
                     <h1>Home</h1>
                 </div>
+                <p>This is a starter template for developing applications on Vue.js.</p>
                 <g-signin-button
-                        :params="{client_id: '901060617777-1nic5bknq28bi7ohhj9k66398hlqtvp4.apps.googleusercontent.com'}"
+                        :params="googleSignInParams"
                         @success="onSignInSuccess"
                         @error="onSignInError">
                     Sign in with Google
@@ -18,6 +19,13 @@
 
 <script>
     export default {
+        data() {
+            return {
+                googleSignInParams: {
+                    client_id: "901060617777-1nic5bknq28bi7ohhj9k66398hlqtvp4.apps.googleusercontent.com"
+                }
+            }
+        },
         methods: {
             onSignInSuccess(googleUser) {
                 try {
